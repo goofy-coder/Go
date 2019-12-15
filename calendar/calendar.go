@@ -10,5 +10,5 @@ type Calendar struct {
 }
 
 func (c Calendar) String() string {
-    return fmt.Sprintf("%s(%s)", c.Name, c.IsPrivate)
+    return fmt.Sprintf("%s(%v)", c.Name, c.IsPrivate)
 }
