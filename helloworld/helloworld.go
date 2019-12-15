@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"time"
+	"calendar"
 )
 
 func main() {
-	fmt.Println("Hello World! The time is ", time.Now())
+	c := calendar.Calendar {"Goofy Code", false}
+	fmt.Printf("Hello World! My calendar is %s\n", c)
 }
